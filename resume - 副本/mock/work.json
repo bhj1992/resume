@@ -1,0 +1,24 @@
+﻿[
+	{
+		"category":"私营企业",
+		"name":"杭州易网灵杰科技有限公司",
+		"url":"http://www.eoner.com/",
+		"image":"images/eoner.png",
+		"time":"2014年-2015年",
+		"posts":"前端实习工程师",
+		"reportto":"技术总监",
+		"peoples":"30",
+		"projects":"商企通视讯服务平台等"
+	},
+	{
+		"category":"私营企业",
+		"name":"睿眼通（上海）信息科技有限公司",
+		"url":"http://www.ruiyantong.com/",
+		"image":"images/ruiyantong.png",
+		"time":"2015年-2017年1月",
+		"posts":"前端工程师",
+		"reportto":"技术总监",
+		"peoples":"25",
+		"projects":"ruiyantong.com、zhengjiaotong.com、政教通App等"
+	}
+]

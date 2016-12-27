@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title>resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<style type="text/css">
+#footer{
+        display: flex;
+        position: fixed;
+    }
+
+.button{
+        flex: 1;
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+        flex-direction: column-reverse;
+        display: flex;
+        font-size: 3px;
+    }
+
+</style>
+<body>
+	<audio id="music" src="music/bgmusic.mp3" controls="controls" autoplay="autoplay"></audio>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        	
+        	<div class="swiper-slide">
+					<div class="bgm"></div>
+					<div class="lefttri"></div>
+					<div class="righttri"></div>
+					<div class="leftcube"></div>
+					<div class="rightcube"></div>
+					<div class="bling"><img src="img/light.png" /></div>
+
+					<div class="cover-title-content ani" swiper-animate-effect="flip" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+						<div class="cover-title">
+							<img class="lightring" src="img/lightring.png" />
+							<img class="circle" src="img/circle.png" />
+						</div>
+						<div class="title-text" >
+							<p class="jian">简</p>
+							<p class="li">历</p>
+						</div>
+					</div>
+				</div>
+				
+            <div class="swiper-slide" style="background-image:url(img/tq.jpg)">
+	            	
+	            	<div class="bling"><img src="img/light.png"/></div>
+	            	
+	            	<div class="info-title-content">
+		            	<div class="info-title">
+		            		<img class="info-lightring" src="img/lightring.png" width="50px" height="50px" />
+		            		<img class="photo" src="img/tree.jpg" width="50px" height="50px" border-radius="25px"/>
+		            	</div>
+	            	</div>
+	           		<div class="underline-info"></div>
+	           		<div class="info-list">
+	           			<div class="ani">
+	           				<embed src="img/name.svg" width="40" height="40" class="name"/>
+	           				<div class="info-item ani"swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s" ><span>姓名：</span>贝华舰</div>
+	           				<div class="info-underline"></div>
+	           			</div>
+	           			<div class="ani">
+	           				<embed src="img/nan.svg" width="30" height="30" class="sex"/>
+	           				<div class="info-item ani"swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><span>性别：</span>男</div>
+	           				<div class="info-underline"></div>
+	           			</div>
+	           			<div class="ani" >
+	           				<embed src="img/age.svg" width="30" height="30" class="age"/>
+	           				<div class="info-item ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.2s"><span>年龄：</span>24</div>
+	           				<div class="info-underline"></div>
+	           			</div>
+	           			<div class="ani">
+	           				<embed src="img/school.svg" width="30" height="30" class="school"/>
+	           				<div class="info-item ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3.2s" ><span>毕业院校：</span>南昌大学</div>
+	           				<div class="info-underline"></div>
+	           			</div>
+	           			<div class="ani">
+	           				<embed src="img/pro.svg" width="30" height="30" class="pro"/>
+	           				<div class="info-item ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="4.2s" ><span>专业：</span>测控技术与仪器</div>
+	           				<div class="info-underline"></div>
+	           			</div>
+	           		</div>
+	           </div>          	
+
+            <div class="swiper-slide" style="background-image:url(img/star.jpg)">
+            	<span style="text-align: center;position:absolute;top: 5%;font-size: 25px;color: white;">我的技能</span>
+            <div>
+            	<div class="skills1 skillsCommon ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.1s">了解<span style="font-size: 10px;color: darkred;">HTML5、ES6等</span>主要规范</div>
+            	<div class="skills2 skillsCommon ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.1s">熟悉<span style="font-size: 10px;color: darkred;">Jquery、Angular等</span>常用框架</div>
+            	<div class="skills3 skillsCommon ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="4.1s">熟悉<span style="font-size: 10px;color: darkred;">Jquery menu plugin等</span>基本插件</div>
+				<div class="skills4 skillsCommon ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.1s">熟悉<span style="font-size: 10px;color: darkred;">Swiper、Iscroll等</span>潮流类库</div>
+            	<div class="skills5 skillsCommon ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="3.1s">精通<span style="font-size: 10px;color: darkred;">Flex、Responsive等</span>常规布局</div>	
+            </div>
+
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/bg.jpg)">
+            	<div class="learningCommon ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+            		
+            			<img src="img/person.jpg" style=" width: 60px;height:60px;margin: 0 auto;" >
+            			<div style="font-size: 14px;color: darkgreen;">2011年-2012年，担任南昌大学中外交流协会会长</div>
+            			<div style="font-size: 14px;color: darkgreen;">2012年-2013年，担任南昌大学学生会副主席</div>
+            			<div style="font-size: 14px;color: darkgreen;">2013年-2014年，担任信息工程学院导员助理</div>
+            		
+            	</div>
+            	<div class="learningCommon ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+            		
+            			<img src="img/jz.jpg"  style="width: 60px;height:60px;margin: 0 auto;" >
+            			<div style="font-size: 20px;color: orangered;">主要奖项</div>
+            			<div style="font-size: 14px;color: darkgreen;">2011年，获南昌高校联合演讲大赛二等奖</div>
+            			<div style="font-size: 14px;color: darkgreen;">2012年，获校优秀干部及二等奖学金</div>
+            			<div style="font-size: 14px;color: darkgreen;">2013年，获南昌大学数学竞赛三等奖及三等奖学金</div>
+            	
+            	</div>
+            	<div class="learningCommon ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="2.2s">
+            		
+            			<img src="img/bei.jpg" style=" width: 60px;height:60px;margin: 0 auto;" />
+            			<div style="font-size: 20px;color: orangered;">自我介绍</div>
+            			<div style="font-size: 14px;color: darkgreen;">性格开朗，口才良好，擅长沟通，具有良好的组织和领导能力，能较快融入群体</div>
+            		
+            	</div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/load.jpg)">
+            	<div class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+            		<p style="font-size: 24px;color:yellow;text-align: center;margin: 50px;">想更深入了解我，请单击下方按钮进入详情</p>
+            	</div>
+            	<div class="button ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2s">
+            		<a href="javacript:0" id="enter">路漫漫其修远兮</a>
+            	</div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Arrows -->
+    </div>
+
+
+	<div id="mainContainer">
+		<div id="header">
+			个人简历
+		</div>
+
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="photo"><img src="img/pic.png"/></div>
+				<div class="mine">
+					<div class="me-img">
+						<img src="img/formore.jpg" width="60px" height="100%"/>
+					</div>
+					<div class="me-info">
+						<p>贝华舰</p>
+						<p>射手座</p>
+						<p>电话：15167512091</p>
+						<p>QQ：1215845760</p>
+						<p>籍贯：浙江舟山</p>
+					</div>
+				</div>
+			</div>
+			<div id="scroll">
+				<ul>
+					
+				</ul>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div class="footer-btn onit" id="me">我</div>
+			<div class="footer-btn" id="skill">技能</div>
+			<div class="footer-btn" id="work">经历</div>
+			<div class="footer-btn" id="project">项目</div>
+		</div>
+
+
+	</div>
+
+
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
